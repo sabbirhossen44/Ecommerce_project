@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an Ecommarce website for making Sabbir sh">
+    <title>Ecommarce Project</title>
+    <link rel="shortcut icon" href="../img/myImg.png" type="image/x-icon">
+    <!-- css link start -->
+     <link rel="stylesheet" href="../css/all.css">
+     <link rel="stylesheet" href="../css/style.css">
+     <link rel="stylesheet" href="../css/responsive.css">
+    <!-- css link end -->
+</head>
+<body>
+    
+    <!-- nevbar start -->
+    <div id="headerIcon">
+        <i class="fa-solid fa-bars" id="menuIcon"></i>
+    </div>
+    <nav id="menu" class="menuBar">
+        <ul class="nav_upper flex_space_around">
+            <li class="nav_list"><a href="../index.html" class="nav_link">Home</a></li>
+            <li class="nav_list"><a href="./register.html" class="nav_link">register</a></li>
+            <li class="nav_list"><a href="./login.html" class="nav_link">login</a></li>
+            <li class="nav_list"><a href="../index.html" class="nav_link">logout</a></li>
+            <li class="nav_list"><a href="./contact.html" class="nav_link">contact</a></li>
+            <li class="nav_list"><a href="./profile.html" class="nav_link"><img src="../img/myImg.png" alt="profile icon" class="profile_icon"></a></li>
+        </ul>
+
+        <ul class="nav_lower flex_space_around">
+            <li class="nav_list"><a href="../index.html" class="nav_link nav_brand">Sabbir shop</a></li>
+            <li class="nav_list"><a href="./cart.html" class="nav_link "><span><i class="fa-solid fa-cart-shopping"></i></span>
+            Cart 2 products - $150.80</a></li>
+        </ul>
+     </nav>
+    <!-- nevbar end -->
+
+    <main>
+        <section class="contact_section">
+            <h2 class="section_title text_center">Contact Us</h2>
+            <div class="contact_container flex_center contact_arae">
+                <div class="card">
+                    <form action="" class="form">
+                        <div class="form_contorl flex_center">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required autocomplete="name">
+                        </div>
+                        <div class="form_contorl flex_center">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required autocomplete="Email">
+                        </div>
+                        <div class="form_contorl flex_center">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message"></textarea>
+                        </div>
+                        <div class="form_contorl flex_center form_brn_field">
+                            <button type="submit" class="btn contact_btn">submit</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="contact_address flex_space_around">
+                    <address>
+                        <h4>Address: </h4>
+                        <p>mymensingh division</p>
+                        <p>mymensingh sadar</p><br>
+                        <span>Call: </span>
+                        <a href="tel:+8801408411241"> +8801408411241</a>
+                    </address>
+                    <iframe class="contact_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.5121689491284!2d90.45942779904783!3d24.72265189688964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375651002085a90b%3A0xc3d49110b53a3312!2sBatipara%20Morol%20Bari%2C%20Mymensingh!5e0!3m2!1sen!2sbd!4v1730025424374!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer start -->
+     <footer class="flex_space_around">
+        <div class="flex_space_around">
+            <label for="subscribe">subscribe to Newsleeter: </label>
+            <input type="email" name="email" id="footer_email" placeholder="Your Email Address">
+            <button class="btn btn_subscribe">subscribe</button>
+            
+        </div>
+        <p>&copy; Copyright 2024 Sabbir Hossen All rights rscrved</p>
+     </footer>
+    <!-- footer end -->
+
+    <script src="../js/custom.js"></script>
+</body>
+</html>
